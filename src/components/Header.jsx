@@ -10,9 +10,9 @@ const Header = () => {
 
                     <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
 
-                        <img src="/images/logo.png" className="h-10 w-10" alt="Flowbite Logo" />
+                        <img src="/images/logo.png" className="h-10 w-10 rounded-lg" alt="Flowbite Logo" />
 
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hero-text md:text-4xl">Varnotsava</span>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white name-logo md:text-4xl">Varnotsava</span>
                     </a>
 
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
