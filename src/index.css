@@ -54,3 +54,15 @@ nav {
     background-position: 200% center;
   }
 }
+
+.carousel {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(172, 39, 86, 1) 28%,
+    rgba(20, 20, 168, 1) 88%,
+    rgba(20, 20, 168, 1) 89%,
+    rgba(25, 25, 25, 1) 100%
+  );
+}
