@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Codystar&family=Inter:wght@400;700&display=swap");
 
+@font-face {
+  font-family: Rockybilly;
+  src: url(fonts/Rockybilly.ttf);
+}
+@font-face {
+  font-family: Autumn;
+  src: url(fonts/Autumn.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -65,4 +74,8 @@ nav {
     rgba(20, 20, 168, 1) 89%,
     rgba(25, 25, 25, 1) 100%
   );
+}
+
+.detail-content-container div {
+  @apply bg-blue-400 rounded-sm h-12 p-4 hover:scale-105 duration-200;
 }

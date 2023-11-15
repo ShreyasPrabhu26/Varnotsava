@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      "inter": ['Inter', "sans-serif"]
+      "inter": ['Inter', "sans-serif"],
+      "Rockybilly": ["Rockybilly", "inter"],
+      "Autumn": ["Autumn", "inter"],
     },
     extend: {},
   },
