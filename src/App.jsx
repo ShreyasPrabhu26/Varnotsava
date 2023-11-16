@@ -3,8 +3,8 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 
 //TODO Remove below!
-import Test from "./components/Test"
-import Event from "./components/EVENT/Event"
+import Gallery from "./components/Gallery"
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -14,10 +14,10 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           {/* <Route index path="/" element={<Home />} /> */}
-          {/* <Route index path="/" element={<Event />} /> */}
-          <Route index path="/" element={<Test />} />
+          {/* <Route index path="/" element={<Events />} /> */}
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }

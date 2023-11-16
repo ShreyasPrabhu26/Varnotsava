@@ -20,24 +20,24 @@ const Event = () => {
                 {
                     id: 1,
                     type: "Venue",
-                    icon: "faLocationDot",
+                    icon: "fa-location-dot",
                     desc: "Seminar Hall",
                 },
                 {
                     id: 2,
-                    icon: "faUserNinja",
+                    icon: "fa-user-ninja",
                     type: "Event Type",
                     desc: "Technical",
                 },
                 {
                     id: 3,
-                    icon: "faUsers",
+                    icon: "fa-users",
                     type: "Team Size",
                     desc: "89",
                 },
                 {
                     id: 4,
-                    icon: "faLandMineOn",
+                    icon: "fa-land-mine-on",
                     type: "Maximum Participants ",
                     desc: "99",
                 }],

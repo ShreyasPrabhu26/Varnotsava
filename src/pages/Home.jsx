@@ -1,5 +1,6 @@
 import React from 'react'
 import bgConcert from "/videos/bgConcert.mp4"
+import Carousel from "../components/Carousel"
 
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
 
             </div>
         </main>
+        <Carousel />
     </>
     )
 }
